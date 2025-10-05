@@ -1,9 +1,9 @@
 # 🚀 纯小白huggingface空间上部署自己容器内的项目：从零到一，打造你的私人AI万能API (保姆级实战) ✨
 
 <p align="center">
-  <a href="https://github.com/lzA6/huggingface-spaces-tutorial/stargazers"><img src="https://img.shields.io/github/stars/lzA6/Qwen-2api?style=for-the-badge&logo=github&color=FFC107" alt="GitHub Stars"></a>
-  <a href="https://github.com/lzA6/huggingface-spaces-tutorial/network/members"><img src="https://img.shields.io/github/forks/lzA6/Qwen-2api?style=for-the-badge&logo=github&color=4CAF50" alt="GitHub Forks"></a>
-  <a href="https://github.com/lzA6/huggingface-spaces-tutorial/blob/main/LICENSE"><img src="https://img.shields.io/github/license/lzA6/Qwen-2api?style=for-the-badge&color=2196F3" alt="License"></a>
+  <a href="https://github.com/lzA6/huggingface-spaces-tutorial/stargazers"><img src="https://img.shields.io/github/stars/lzA6/huggingface-spaces-tutorial?style=for-the-badge&logo=github&color=FFC107" alt="GitHub Stars"></a>
+  <a href="https://github.com/lzA6/huggingface-spaces-tutorial/network/members"><img src="https://img.shields.io/github/forks/lzA6/huggingface-spaces-tutorial?style=for-the-badge&logo=github&color=4CAF50" alt="GitHub Forks"></a>
+  <a href="https://github.com/lzA6/huggingface-spaces-tutorial/blob/main/LICENSE"><img src="https://img.shields.io/github/license/lzA6/huggingface-spaces-tutorial?style=for-the-badge&color=2196F3" alt="License"></a>
   <img src="https://img.shields.io/badge/状态-持续更新-brightgreen?style=for-the-badge" alt="Status">
 </p>
 <p align="center">
