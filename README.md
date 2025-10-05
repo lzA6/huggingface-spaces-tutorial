@@ -23,9 +23,13 @@
 ### 👇 操作步骤
 
  **安装必备软件**
-    *   **Git**: [点击下载Git for Windows](https://git-scm.com/downloads)。下载后一路点击 `Next` 安装。
-    *   **VS Code**:  [点击下载Visual Studio Code](https://code.visualstudio.com/)。同样，一路 `下一页` 安装即可。
-    *   **重要提示**：安装完后，**重启电脑**，确保所有设置都生效了！
+**Git**: [点击下载Git for Windows](https://git-scm.com/downloads)。下载后一路点击 `Next` 安装。
+
+**VS Code**:  [点击下载Visual Studio Code](https://code.visualstudio.com/)。同样，一路 `下一页` 安装即可。
+
+**重要提示**：安装完后
+
+**重启电脑**，确保所有设置都生效了！
 
 ### 第 1 步：获取项目代码
 
