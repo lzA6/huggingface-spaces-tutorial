@@ -165,8 +165,7 @@ cd Qwen-2api
             git config --global user.name "YourName"
             git config --global user.email "you@example.com"
             ```
-
-            <img width="885" height="268" alt="image" src="https://github.com/user-attachments/assets/c165404f-d07c-4fd4-94bb-0e97221c2866" />
+        *    <img width="885" height="268" alt="image" src="https://github.com/user-attachments/assets/c165404f-d07c-4fd4-94bb-0e97221c2866" />
 
     *   **B. 添加文件并创建记录**
         ```bash
@@ -182,10 +181,9 @@ cd Qwen-2api
             ```bash
             git push https://xiaobai:hf_abc123def456@huggingface.co/spaces/xiaobai/my-translator main
             ```
-  
-  <img width="1446" height="641" alt="image" src="https://github.com/user-attachments/assets/4ad9ad91-fa2a-44f8-b3e0-a63dc9d8abca" />
+        *    <img width="1446" height="641" alt="image" src="https://github.com/user-attachments/assets/4ad9ad91-fa2a-44f8-b3e0-a63dc9d8abca" />
 
-  具体参考：[L站2级帖](https://linux.do/t/1005372)
+        *   具体参考：[L站2级帖](https://linux.do/t/1005372)
 
         *   **请仔细对照例子，替换成你自己的信息，然后复制到终端里，按下回车！**
 
