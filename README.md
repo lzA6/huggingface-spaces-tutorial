@@ -132,6 +132,12 @@ cd Qwen-2api
         *   **秘密 1：主访问密码**
             *   **Name**: `API_MASTER_KEY`
             *   **Value**: `设置一个你自己的复杂密码` (例如: `MySuperSecretKey_2024!`)
+
+            *   <img width="1035" height="210" alt="image" src="https://github.com/user-attachments/assets/2e79ddc2-e8b6-4846-8c14-ab878dca306d" />
+            *   <img width="1035" height="252" alt="image" src="https://github.com/user-attachments/assets/6bd754ed-22d2-40fd-a35f-61d211bc34f9" />
+            *    环境变量务必设置为你env的cookie等等秘钥值
+
+
         *   **秘密 2 & 3：通义千问身份凭证**
             *   **如何获取？** 登录  [通义千问官网](https://tongyi.aliyun.com/qianwen/)，按 `F12` 打开开发者工具，在 `Application` -> `Cookies` 中找到 `cookie` 和 `x-xsrf-token` 的值，然后分别创建名为 `CN_ACCOUNT_1_COOKIE` 和 `CN_ACCOUNT_1_XSRF_TOKEN` 的Secret并粘贴进去。
 
