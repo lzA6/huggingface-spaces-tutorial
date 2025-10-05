@@ -1,22 +1,22 @@
 # 🚀 终极部署圣经：手把手带你打造私人AI万能API (小白专供版) ✨
 
-!License: MIT [<sup>1</sup>](https://img.shields.io/badge/License-MIT-yellow.svg)
-!Python [<sup>2</sup>](https://img.shields.io/badge/Python-3.9+-blue.svg)
-!Docker [<sup>3</sup>](https://img.shields.io/badge/Docker-Powered-blue.svg)
-!Hugging Face [<sup>4</sup>](https://img.shields.io/badge/🤗%20Hugging%20Face-Spaces-yellow)
+![License: MIT [<sup>2</sup>](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[!Python 3.9+ [<sup>3</sup>](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/)
+![Docker [<sup>4</sup>](https://img.shields.io/badge/Docker-Powered-blue.svg)](https://www.docker.com/)
+[!Hugging Face Spaces [<sup>5</sup>](https://img.shields.io/badge/🤗%20Hugging%20Face-Spaces-yellow)](https://huggingface.co/spaces)
 
 > “你好，未来的构建者！本指南将是你手中最详尽的地图，它将引导你穿越代码的迷雾，亲手点亮属于你的第一颗AI服务之星。无需任何基础，只需跟随与信任，你将100%成功。”
 
 ## 📖 目录 (Table of Contents)
 
-*   我们的终极目标是什么？ [<sup>5</sup>](#-我们的终极目标是什么)
-*   第一步：安装必备工具 [<sup>6</sup>](#-第一步安装必备工具)
-*   第二步：创建Hugging Face Space (空间) [<sup>7</sup>](#-第二步创建hugging-face-space-空间)
-*   第三步：在本地准备项目文件 [<sup>8</sup>](#-第三步在本地准备项目文件)
-*   第四步：配置并上传你的项目 [<sup>9</sup>](#-第四步配置并上传你的项目)
-*   第五步：验证与测试你的API [<sup>10</sup>](#-第五步验证与测试你的api)
-*   附录A：常见问题终极排查手册 (FAQ) [<sup>11</sup>](#-附录a常见问题终极排查手册-faq)
-*   附录B：如何更新与维护？ [<sup>12</sup>](#-附录b如何更新与维护)
+*   我们的终极目标是什么？ [<sup>6</sup>](#-我们的终极目标是什么)
+*   第一步：安装必备工具 [<sup>7</sup>](#-第一步安装必备工具)
+*   第二步：创建Hugging Face Space (空间) [<sup>8</sup>](#-第二步创建hugging-face-space-空间)
+*   第三步：在本地准备项目文件 [<sup>9</sup>](#-第三步在本地准备项目文件)
+*   第四步：配置并上传你的项目 [<sup>10</sup>](#-第四步配置并上传你的项目)
+*   第五步：验证与测试你的API [<sup>11</sup>](#-第五步验证与测试你的api)
+*   附录A：常见问题终极排查手册 (FAQ) [<sup>12</sup>](#-附录a常见问题终极排查手册-faq)
+*   附录B：如何更新与维护？ [<sup>13</sup>](#-附录b如何更新与维护)
 
 ---
 
@@ -42,11 +42,11 @@
 ### 👇 操作步骤
 
 1.  **安装 Git**
-    *   点击蓝色链接在线下载：**下载 Git** [<sup>13</sup>](https://git-scm.com/downloads)
+    *   点击蓝色链接在线下载：**下载 Git** [<sup>14</sup>](https://git-scm.com/downloads)
     *   下载完成后，双击安装包。在安装过程中，你不需要理解每一个选项，只需像安装普通软件一样，**一路点击 `Next`** 即可完成安装。
 
 2.  **安装 Visual Studio Code**
-    *   点击蓝色链接在线下载：**下载 VS Code** [<sup>14</sup>](https://code.visualstudio.com/)
+    *   点击蓝色链接在线下载：**下载 VS Code** [<sup>15</sup>](https://code.visualstudio.com/)
     *   同样，下载后双击安装包，一路点击 `Next` 完成安装。建议在安装过程中勾选“添加到PATH”选项（通常是默认勾选的）。
 
 3.  **重启电脑**
@@ -70,7 +70,7 @@
 ### 👇 操作步骤
 
 1.  **注册与登录**
-    *   访问 Hugging Face 官网 [<sup>15</sup>](https://huggingface.co/)。点击右上角的 `Sign Up` 注册账号，然后登录。
+    *   访问 Hugging Face 官网 [<sup>16</sup>](https://huggingface.co/)。点击右上角的 `Sign Up` 注册账号，然后登录。
 
 2.  **创建新 Space**
     *   登录后，将鼠标悬停在页面右上角的**圆形头像**上，在弹出的下拉菜单中点击 `New Space`。
@@ -132,7 +132,7 @@
     *   按下回车。你会看到终端的路径提示符发生了变化，表示我们当前的操作目录已经切换到了项目文件夹内。
 
 4.  **下载并放置 `Qwen-2api` 项目文件**
-    *   点击蓝色链接下载项目ZIP包：**下载 Qwen-2api 项目** [<sup>16</sup>](https://github.com/lzA6/Qwen-2api/archive/refs/heads/main.zip)。
+    *   点击蓝色链接下载项目ZIP包：**下载 Qwen-2api 项目** [<sup>17</sup>](https://github.com/lzA6/Qwen-2api/archive/refs/heads/main.zip)。
     *   在你的“下载”文件夹中，找到 `Qwen-2api-main.zip` 文件，右键点击并选择“解压到当前文件夹”或类似选项。
     *   进入解压后的 `Qwen-2api-main` 文件夹，按 `Ctrl+A` **全选**里面的所有文件和文件夹。
     *   右键点击选中的文件，选择“复制”。
@@ -180,7 +180,7 @@
             *   **Value**: `设置一个你自己的复杂密码` (例如: `MySuperSecretKey_2024!`) **请务必记住它，这是你的API密钥。**
         *   **秘密 2 & 3：通义千问身份凭证**
             *   **如何获取？**
-                1.  用Chrome或Edge浏览器，登录 通义千问官网 [<sup>17</sup>](https://tongyi.aliyun.com/qianwen/)。
+                1.  用Chrome或Edge浏览器，登录 通义千问官网 [<sup>18</sup>](https://tongyi.aliyun.com/qianwen/)。
                 2.  按 `F12` 键打开“开发者工具”。
                 3.  点击 `Application` (应用) -> `Storage` -> `Cookies` -> `https://tongyi.aliyun.com`。
                 4.  在右侧表格中，找到 `Name` 为 `cookie` 的行，**双击**其 `Value` 列，`Ctrl+C` 复制完整的值。
@@ -300,8 +300,6 @@
 ---
 
 ## 附录A：常见问题终极排查手册 (FAQ)
-
-(此部分内容与上一版类似，但更结构化)
 
 *   **Q1: `git` 命令无效？**
     *   **A:** Git未正确安装。请重做第一步，并重启电脑。
