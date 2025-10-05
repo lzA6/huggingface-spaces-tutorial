@@ -7,11 +7,11 @@
   <img src="https://img.shields.io/badge/状态-持续更新-brightgreen?style=for-the-badge" alt="Status">
 </p>
 <p align="center">
-  「我们并非在构建一个工具，而是在传递一种自由连接AI的能力。🔥」
+  「小白轻松部署自己的项目。🔥」
 </p>
-## 📖 我们的冒险总览
+## 📖 具体实现步骤
 
-在开始之前，我们先看一下这次“寻宝之旅”的完整地图，让你心里有个底：
+在开始之前，我们先看一下这次的大概流程：
 
 1.  **准备阶段**：我们会先准备好两件“神器”（必备软件），并从GitHub上下载本项目的“藏宝图”（源代码）。
 2.  **云端基地创建**：我们将在Hugging Face上免费创建一个名为“Space”的云端基地。
@@ -19,9 +19,6 @@
 4.  **核心配置**：我们会对项目进行一些关键配置，比如设置“开门密码”和“身份令牌”，并特别注意配置一个关键的“通信端口”。
 5.  **上传与激活**：我们会念出“魔法咒语”（Git命令），将本地建好的基地上传到云端，并解决所有可能出现的上传错误。
 6.  **最终测试**：最后，我们会亲手测试一下我们的成果，确保它能完美工作，并告诉你如何将它接入到其他AI软件中。
-
-准备好了吗？让我们开始第一步！
-
 ---
 
 ## 第一步：准备工作 (软件与源代码)
@@ -36,15 +33,19 @@
 
 ### 👇 操作步骤
 
-1.  **安装必备软件**
-    *   **Git**: 点击下载 **Git for Windows** [<sup>5</sup>](https://git-scm.com/downloads)。下载后一路点击 `Next` 安装。
-    *   **VS Code**: 点击下载 **Visual Studio Code** [<sup>6</sup>](https://code.visualstudio.com/)。同样，一路 `Next` 安装即可。
+ **安装必备软件**
+    *   **Git**: 点击下载 **Git for Windows** [点击下载Git for Windows](https://git-scm.com/downloads)。下载后一路点击 `Next` 安装。
+    *   **VS Code**: 点击下载 **Visual Studio Code** [点击下载Visual Studio Code](https://code.visualstudio.com/)。同样，一路 `Next` 安装即可。
     *   **重要提示**：安装完后，**重启电脑**，确保所有设置都生效了！
 
-2.  **下载本项目源代码**
-    *   点击这个链接：**下载 Qwen-2api 项目源代码 (ZIP)** [<sup>7</sup>](https://github.com/lzA6/Qwen-2api/archive/refs/heads/main.zip)。
-    *   下载后，你会得到一个名为 `Qwen-2api-main.zip` 的压缩包。在你的“下载”文件夹里找到它，右键点击，选择“解压到当前文件夹”或类似选项。
-    *   现在，你就有了一个名为 `Qwen-2api-main` 的文件夹，里面装着我们所有的“建筑材料”。先放着，我们马上会用到它。
+### 第 1 步：获取项目代码
+
+打开您的命令行（终端），克隆本项目到您的电脑上。
+
+```bash
+git clone https://github.com/lzA6/Qwen-2api.git
+cd Qwen-2api
+```
 
 ---
 
